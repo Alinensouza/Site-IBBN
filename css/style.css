@@ -1,0 +1,118 @@
+/*importação de fontes*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{    
+    padding: 0px; /*espaçamento interno*/
+}
+body{
+    width: 1200px; /*largura*/
+    background-color: #D6F7D4; 
+    margin: 0 auto; /*serve para centralizar o body*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex; /*alinhar os itens na horizontal*/
+    justify-content: space-between; /*espaçamento entre itens*/
+    align-items: center; /*alinhamento vertical (centro)*/
+}
+h1{
+    margin-right: 250px; /*margem a direita*/
+    font-family: 'Playball', cursive; /*fonte da letra, tirei do google fontes*/
+    font-size: 60px;
+    color: #03254F;
+}
+h2{
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: #03254F;
+}
+p.conteudo{
+    color: #03254F;
+    text-align: justify;
+    margin: 20px 20px 50px 20px;
+    line-height: 30px; /*espaçamento entre linhas*/
+    text-indent: 50px; /*recuo da primeira linha*/
+}
+ul{
+    list-style: none; /*modificar o marcador, nesse caso deixei invisivel (none)*/
+}
+a{
+    text-decoration: none; /*deixei invisivel o sublinhado do texto*/
+    color: #ffffff;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+nav#menu{
+    border-bottom: 1px solid #03254F;
+    margin-top: 40px;
+}
+nav#menu ul{
+    display: flex; /* alinhar os itens na horizontal*/
+    justify-content: space-around; /*espaçamento entre os itens*/
+}
+nav#menu li{
+    background-color: #9ACC97;
+    padding: 5px; /*espaço entre o conteudo e a borda*/
+    border-radius: 10px; /*arredonda as bordas*/
+    margin-bottom: 15px;
+}
+nav#menu ul li a {
+    transition: 0.5s; /*tempo de transição do hover que apliquei*/ 
+}
+nav#menu li:hover{
+    background-color: #5d8f5b;
+}
+img{
+    width: 90%; /*usa % do espaço disponibilizado para ele*/
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px #03254F;
+}
+figure.centro{
+    justify-content: center;
+    text-align: center;
+}
+figure.logo img{
+    width: 150px; 
+    margin-right: 80px;
+    border-radius: 10%; /*arredonda as bordas*/
+}
+h4{
+    font-family: 'Roboto', sans-serif;
+    color: #9ACC97;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+div#interface{
+    background-color: #ffffff; /*cor de fundo*/
+    margin: 0 auto; 
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5); /*sombra*/  
+}
+footer {        
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    background-color:  #D6F7D4;
+}
+div.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p.rodape{
+    margin-right: 40px;
+    text-align:right;
+    line-height: 30px;
+    color: #03254F;
+}
+p.autor{
+    text-align: center;
+    margin-bottom: -20px;
+    padding: 15px;
+    color: #03254F;
+    font-weight: bold;
+}
